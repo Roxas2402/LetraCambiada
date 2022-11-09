@@ -15,6 +15,12 @@ public class Main {
         }
 
         String frase = new String(letras);
-        System.out.println(frase);
+        String palabras[] = frase.split(" ");
+
+        for (int i = 0; i < palabras.length; i++) {
+            System.out.println(palabras[i]);
+        }
+
+        System.out.println("fin");
     }
 }
